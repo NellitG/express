@@ -11,8 +11,10 @@ const app = express()
 //     // res.render('index')
 // })
 
-app.post('/', (req, res) => {
-    res.send('Got a POST request')
-})
+// app.post('/', (req, res) => {
+//     res.send('Got a POST request')
+// })
+
+app.use(express.static('public'))
 
 app.listen(3000)
