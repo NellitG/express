@@ -15,7 +15,7 @@ const app = express()
 //     res.send('Got a POST request')
 // })
 
-// app.use(express.static('public'))
+app.use(express.static('public'))
 app.use('/static', express.static('public'))
 
 app.listen(3000)
