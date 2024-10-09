@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
     console.log("Here")
     res.send("Hi")
     res.sendStatus(500)
-    // res.download("server.js")
+    res.download("server.js")
     // res.render('index')
 })
 
