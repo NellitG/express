@@ -6,7 +6,7 @@ const app = express()
 app.get('/', (req, res) => {
     console.log("Here")
     res.send("Hi")
-    // res.sendStatus(500)
+    res.sendStatus(500)
     // res.download("server.js")
     // res.render('index')
 })
